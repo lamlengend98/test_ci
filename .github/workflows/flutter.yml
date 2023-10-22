@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Flutter
-        uses: subosito/flutter-action@v5
+        uses: subosito/flutter-action
 
       - name: Build APK
         run: flutter build apk
